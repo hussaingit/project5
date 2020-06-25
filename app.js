@@ -1,10 +1,17 @@
 chapter1 ......task no 1
+
 alert("welcome to JS")
+
 chapter1........taskno 2
+
 alert(" Error!Please Enter a Valid Password.")
+
 chapter1.......task no 3
+
 alert("Welcome to js land.“\r\n”Happy Coding!" )
+
 chapter1.....task no 4
+
 alert("welcome to js land.")
 
 alert("happy coding! “\r\n” prevent this page from creating additional dialogs")
@@ -13,66 +20,99 @@ alert("Hello.....I can run js through web browser's console")
 console.log(alert)
 chapter2.....taskno1
 var username = ""
+
 chapter2.....task no 2
+
 var myName = "Hussain Ali"
+
 chapter2.......task no 3
+
 var message = "Hello World"
 alert(message)
+
 chapter2......task no 4
+
 var name = "jone doe"
 var age = "15 years old"
 var course = "certified Mobile Application Development"
 alert(name)
 alert(age)
 alert(course)
+
 chapter2......task no 5
+var pizz = "PIZZA"
+var pizz1 = pizz.slice(0,4)
+var pizz2 = pizz.slice(0,3)
+var pizz3 = pizz.slice(0,2)
+var pizz4 = pizz.slice(0,1)
+var final = pizz +"\n" +pizz1+"\n"+pizz2+"\n"+pizz3+"\n"+pizz4
+alert(final)
 
 chapter2......task no 6
 
 var email = "newgreatgame"
 alert(email  + "@hotmail" + ".com")
+
 chapter2......task no 7
 
 var book = "A smarter way to learn JavaScript"
 
 alert("I am trying to learn from the Book " + book)
+
 chapter2......task no 8
+
 var browser = "Yah! I can write HTML content  through javaScript "
 document.write(browser)
+
 chapter2......task no 9
+
 var symbols = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”"
 alert(symbols)
 document.write(symbols)
+
 chapter3.....task 1
+
 var age = "I am 15 years old"
 alert(age)
+
 chapter3 ...task2
+
 var visitor = "You have visited this site 14 times"
 alert(visitor)
+
 chapter3...task3
+
 var birthYear = "My birth year is 1990 <br> Data type of my declared  variable is number"
 document.write(birthYear)
 chap3....task4
+
 var name = "John Doe"
 var productTitle = " T-shirt(s)"
 var quantity = "5"
-document.write(name +  " " + "ordered" + " " + quantity + " " + productTitle + " " + "on XYZ Clothing store")
+document.write(name +  " " + "ordered" + " " + quantity + " " + productTitle + " " + "on XYZ Clothing store"
+
 chap4....task1
+
 var A = ""
 var B = ""
 var C = ""
+
 chap4...task2
+
 var 5legalVariables = "letters $letters _letters numbersletters $letters_"
 var 5illegalVarialbes = "$ _ * & ="
 var Rules = " <b>Rules for naming JS variables </b> <br> <br> Variable names can only contain ,numbers,$ and _  For example :$my_1stVariable<br> Variables must begin with a letter ,$or _ .For example : $name, _name or name <br> Variable names are case sensitive <br> Variable names should not be JS keywords"
 document.write(Rules)
 
 chap5.....task1
+
 var A = 3
 var B = 5
 var c = A+B
 document.write(c)
+
 chap5....task2
+
 var A = 10
 var B = 4
 var c = A-B
@@ -89,7 +129,9 @@ var A = 48
 var B = 5
 var c = A%B
 document.write(c)
+
 chap5....task3
+
 var A = 
 document.write("value after variable declaration is " + A)
 var B = 5
@@ -145,27 +187,35 @@ document.write("Price of item 2 is   " + " "+ b + "<br>")
 document.write("Quantity of item 2 is  " + " "+ d + "<br>")
 document.write("Shipping charges  " + " "+ e + "<br>")
 document.write("Total cost of your order is   " + " "+ total + "<br>")
+
 chap5.........task8
+
 var totalMarks = 980
 var obtMarks = 804
 var percentage = obtMarks/totalMarks*100
 document.write("Total marks:" +' '+ totalMarks +" <br>")
 document.write("Marks obtained :" +' '+ obtMarks +" <br>")
 document.write("Percentage:" +' '+ percentage +" %")
+
 chap5.....task 9
+
 var dollar = 10
 var riyal = 25
 var totalPkr = (dollar*104.80)+(riyal*28)
 document.write("<b> Currency in PKR </b>" + "<br>" +"<br>")
 document.write("Total Currency in PKR :" +" "+ totalPkr)
+
 chap5..... task 10
+
 var num = 38
 var a = 5
 var b = 10
 var c = 2
 var r = [(num+a)*10]/2
 document.write(r)
+
 chap5.....task11
+
 var currentYear = 2020
 var birthYear = 1985
 var age = currentYear-birthYear
@@ -173,7 +223,9 @@ document.write("current Year :" + " " + currentYear +"<br>")
 document.write("Birth Year :" + " " + birthYear +"<br>")
 
 document.write("Your age is :" + " " + age +"<br>")
+
 chap5.....task 12
+
 var radius = 20
 var circum = 2*3.142*radius
 var area = 3.142*radius*radius
@@ -182,6 +234,7 @@ document.write("The circumference is :" + " " + circum +"<br>")
 document.write("The area is  :" + " " + area +"<br>")
 
 chap5....task 13
+
 var snack = "chocolate chip"
 var age = 15
 var maxAge = 65
@@ -192,7 +245,11 @@ document.write("Current age:" + " " + age+"<br>")
 document.write("Estimated Maximum Age :" + " " + maxAge +"<br>")
 document.write("Amount of snacks per day:" + " " + amountPerDay+"<br>")
 document.write("You will need 150 chocolate chip to last you untill the ripe old age of  :" + " " + result +"<br>")
+
+
+
 assig 6.....task1
+
 var a = 10
 var b = ++a
 var c = a++
@@ -210,7 +267,9 @@ document.write("The value of --a is :" + " " + d +"<br>")
 document.write("Now the value of a is :" + " " + d +"<br>" +" <br>")
 document.write("The value of a-- is  :" + " " + d +"<br>")
 document.write("Now the value of a is  :" + " " + g +"<br>")
+
 assign 6 ........task2
+
 var a = 2
 var b = 1
 var result = --a - --b + ++b + b--
@@ -224,7 +283,9 @@ document.write("--a - --b + ++b +b-- :" + " " + "1-0+1+1" +"<br>")
 assign6......task 3
 var a = prompt("User name","Enter Your name")
 alert("Welcome to our Farm “\r\n” Siddiq&Sons")
+
 assign6 ..... task 5
+
 var i = +prompt("user input","enter a number")
 for (var j = 1; j<=10; j++ )
 {
@@ -232,6 +293,7 @@ for (var j = 1; j<=10; j++ )
    
 }
 assign6.....task6
+
 var sub1 = prompt("subject1","enter your subject1 name")
 var sub2 = prompt("suject2","enter your subject2 name")
 var sub3 = prompt("suject3","enter your subject3 name")
@@ -252,6 +314,7 @@ document.write(sub3 + total + "-------- " + sub3obt+ "-------- " + sub3Prct+"%" 
 document.write(  "-------- " + totalSubjectsMarks +  "-------- " + totalObtMarks +  "-------- " + overAllPrct +"%" )
 
  assign 9-10......task1
+
 var city = prompt("name of city","enter your city")
 if ( city === "karachi") {
     document.write(" Welcome to city of lights ")
@@ -274,12 +337,15 @@ document.write("<b> signal color" +" -------------"+"Message" +"<br>")
 document.write( color1 +" -------------"+"Must Stop" +"<br>")
 document.write(color2 +" -------------"+"Ready to move" +"<br>")
 document.write(color3 +" -------------"+" Move now" + " <b/> " + "<br>")
+
 assign9-10.......task4
+
 var fuel = prompt("remaining fuel","enter remain fuel")
 if ( fuel<"0.25litres") {
     document.write("Please refill the fuel in your car")
 }
 assign 9-10 ........task 5
+
  var a = 4;
 if (++a === 5){
 alert("given condition for variable a is true");
@@ -322,6 +388,7 @@ if (true){
         alert("car is smaller than cat");
 
     }
+
     assign 9-10 task 6
 
     var marksObtain = +prompt("marksObtain","enter marks")
@@ -362,6 +429,7 @@ else if (input=== ++secret) {
     alert("Close enough to the correct answer")
 }   
 assign 9-10 .....task8
+
 var number = +prompt("number","enter")
 var fix =  3
 var a = number % fix
@@ -372,6 +440,7 @@ else if (a!== 0){
     document.write("It is not multiple of 3")
 }
 assign 9-10 .......task 9
+
 var a = +prompt("insert","enter number")
 var even = a % 2
 if ( even===0) {
@@ -381,6 +450,7 @@ else if (even!==0){
     alert("It is an odd number")
 }
 assign 9-10 ....task 10
+
 var T = +prompt("temperature","enter")
 if (T>40) {
     document.write("It is too hot outside")
@@ -396,6 +466,7 @@ if (T>40) {
     document.write("OMG! Today’s weather is so Cool.")
 }
 assign 9-10 ......task11
+
 
 var a = +prompt("first number","enter")
 var b = +prompt("second number","enter")
@@ -419,7 +490,10 @@ else if (c=== "%"){
 
 assign 12-13 ....task 1
 
+
 assign12-13......task2
+
+
 var a = +prompt(" enter integer1")
 var b = +prompt(" enter interger2 ")
 if (a===b) {
@@ -432,6 +506,7 @@ else if (b>a) {
     document.write(b +" is greater integer")
 }
 assign12-13......task3
+
 
 var number = +prompt("enter number") 
 if (number=== 0) {
@@ -469,6 +544,7 @@ else if (firstchar === "u"){
    }
 
 assign 12-13 ........task 5
+
 var password = "pakistan"
 var inputpass = prompt("enter password")
 if (password===inputpass) {
@@ -489,7 +565,9 @@ else{
 greeting = "Good evening";
 }
 document.write(greeting)
+
 assign 12-13 ........task 7
+
 var time = +prompt("enter time 0000-2400")
 if (time>=0000&&time<1200) {
     console.log("Good morning!")
@@ -502,26 +580,36 @@ else if (time>=1700&&time<2100) {
  else if (time>=2100&&time<2359) {
     console.log("Good night!")
 }
+
 assign 13-15 .....task1
+
 var studentNames = [""]
 
 assign 13-15......task2
+
 var studentName = {}
+
 
 assign 13-15 .....task3
 
+
 var a = ["ahmed","ali"]
+
 assign 13-15....task 4
 
+
 var b = [2,6,8]
+
 assign 13-15 ....task5
 
 var c = ["true","false"]
+
 assign 13-15.....task 6
 
 var d = [1,"ali","true"]
 
 assign 13-15 .........task 7
+
 var qualInPak = ["SSC","HSC","BCS","BS","BCOM","MS","M.Phil.","PhD"]
 
 document.write("Qualifications:" + "<br>")
@@ -581,6 +669,7 @@ document.write(color)
 
         assign 13-15 .......task 10
 
+
 var scores = [320, 230, 480, 120 ];
 document.write("Scores of Students :" +" " +scores +"<br/>")
 
@@ -589,6 +678,7 @@ document.write("Scores of Students :" +" " +scores +"<br/>")
  document.write("Ordered Scores of Students :" +" " +scores)
 
 assign 13-15 ......task 11
+
 var cities = ["karachi","Lahore","Islamabad","Quetta","Peshawar"]
 document.write("Cities list:" +"<br/>")
 document.write(cities +"<br/>" +"<br/>")
@@ -597,6 +687,7 @@ document.write("Selected cities list:" +"<br/>")
 document.write(selectedCities +"<br/>")
 
 assign 13-15 ......task 12
+
 var arr = ["This" , " is ", " my ","cat"];
 document.write("Array :" +  "<br/>")
 document.write( arr +"<br/>"+ " <br/>" )
@@ -617,7 +708,9 @@ var devicesR = devices.reverse()
 document.write("Devices :" +  "<br/>")
 document.write( devicesR +  "<br/>")
 
+
 assign 13-15 ......task 15 
+
 var phonesM = ["Apple","Samsung","Motorola","Nokia","Sony","Haier"]
 document.write("<select>") 
 for (var i=0; i<phonesM.length;i++){
@@ -627,6 +720,7 @@ document.write("</select>")
 
 
 assign 17-20 task 1
+
 
 var arr = [
     [],
@@ -658,12 +752,14 @@ for (var i=1;i<=length;i++){
 }
 
 assign 17-20 ......task 5
+
 var fruits = ["apple","banana","mango","orange","strawberry"]
 for (var i=0;i<fruits.length;i++){
     document.write(fruits[i] + "<br>")
 }
 
 assign 17-20 ......task 6
+
 for ( var i=1;i<=15;i++){
     document.write(i +" ")
 }
@@ -699,6 +795,7 @@ if (search===a[i]) {
    console.log(c)
 
 assign 17-20 ........task 10
+
 for (var i=1;i<=20; i++){
     document.write(i*5 + "<br>")
 }
